@@ -1,5 +1,5 @@
-import Item_Example from "../components/molcules/message.html";
-import "../components/molecules/message.scss";
+import Item_Example from "../components/molcules/message/message.html";
+import "../components/molecules/message/message.scss";
 
 export default { title: "molcules/message" }
 
