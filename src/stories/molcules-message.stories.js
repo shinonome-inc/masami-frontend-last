@@ -1,6 +1,7 @@
-import Item_Example from "../components/molcules/message/message.html";
+import Item_message from "../components/molecules/message/message.html";
 import "../components/molecules/message/message.scss";
 
-export default { title: "molcules/message" }
+export default { title: "molecules/message" }
 
 export const message = () => Item_message;
+
