@@ -1,10 +1,6 @@
 @use "../../variables" as *;
-@use "../../utilities" as *;
+
 .assignment-example-button {
-  color: $color-example;
-  font-size: $fontsize-example;
-}
-h2 {
   color: $color-example;
   font-size: $fontsize-example;
 }
