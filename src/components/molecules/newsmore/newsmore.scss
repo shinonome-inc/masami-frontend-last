@@ -1,27 +1,27 @@
 @use "../../variables" as *;
 @use "../../utilities" as *;
 
-.newsmore{
-background-color: gainsboro;
-position: static;
-width:150px ;
-border: solid black 3px;
-height: 10px;
-left: 0px;
-top: 0px;
-font-family: $fontfamily-example;
-font-size: 14px;
-display: flex;
-align-items: center;
-color:$color-example;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
-padding: 15px 15px;
+.newsmore {
+    background-color: gainsboro;
+    position: static;
+    width: 150px;
+    border: solid black 3px;
+    height: 10px;
+    left: 0px;
+    top: 0px;
+    font-family: $fontfamily-example;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: $color-example;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    padding: 15px 15px;
 }
 
-.newsmore:hover{
-color:white;
-background-color:black;
+.newsmore:hover {
+    color: white;
+    background-color: black;
 }
