@@ -1,0 +1,25 @@
+@use "../../variables" as *;
+@use "../../utilities" as *;
+
+.button {
+    font-size: $fontsize-example;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    position: absolute;
+    width: 150px;
+    background: #000000;
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: solid 5px gray;
+    margin: 0px 0px;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+}
