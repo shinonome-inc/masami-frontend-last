@@ -1,1 +1,4 @@
-fontfamily: $fontfamily-gochic;
+@use "variables" as *;
+body {
+    font-family: $fontfamily-gochic;
+}
