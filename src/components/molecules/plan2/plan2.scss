@@ -1,0 +1,123 @@
+.menu1 ul li:nth-child(1) {
+    background-color: #e7eef0;
+    border: gray solid 1px;
+    text-align: center;
+    padding: 20px;
+}
+.menu1 ul li:nth-child(2) {
+    background-color: #058fb6;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+.menu1 ul li:nth-child(3) {
+    background-color: #058fb6;
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.menu1 ul li:nth-child(4) {
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu1 ul li:nth-child(5) {
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu1 ul li:nth-child(6) {
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding: 20px;
+}
+.menu1 ul li:nth-child(7) {
+    border-left: gray solid 1px;
+    border-right: gray solid 1px;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu1 ul {
+    list-style: none;
+    width: 450px;
+}
+
+.menu2 ul li:nth-child(1) {
+    background-color: rgb(11, 11, 165);
+    color: white;
+    border: rgb(11, 11, 165) 4px solid;
+    text-align: center;
+    padding: 20px;
+}
+.menu2 ul li:nth-child(2) {
+    background-color: #acddeb;
+    border-left: rgb(11, 11, 165) 4px solid;
+    border-right: rgb(11, 11, 165) 4px solid;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+.menu2 ul li:nth-child(3) {
+    background-color: #acddeb;
+    border-left: rgb(11, 11, 165) 4px solid;
+    border-right: rgb(11, 11, 165) 4px solid;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.menu2 ul li:nth-child(4) {
+    border-left: rgb(11, 11, 165) 4px solid;
+    border-right: rgb(11, 11, 165) 4px solid;
+    border-bottom: gray solid 1px;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.menu2 ul li:nth-child(5) {
+    border-left: rgb(11, 11, 165) 4px solid;
+    border-right: rgb(11, 11, 165) 4px solid;
+    border-bottom: gray solid 1px;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.menu2 ul li:nth-child(6) {
+    border-left: rgb(11, 11, 165) 4px solid;
+    border-right: rgb(11, 11, 165) 4px solid;
+    border-bottom: gray solid 1px;
+    text-align: center;
+    padding: 20px;
+}
+.menu2 ul li:nth-child(7) {
+    border-left: rgb(11, 11, 165) 4px solid;
+    border-right: rgb(11, 11, 165) 4px solid;
+    border-bottom: rgb(11, 11, 165) 4px solid;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.menu2 ul {
+    list-style: none;
+    width: 450px;
+}
