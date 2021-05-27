@@ -2,31 +2,20 @@
 @use "../../utilities" as *;
 
 h1 {
-    background-color: black;
-    color: white;
-    font-size: x-large;
-    position: static;
-    font-family: Noto Serif JP;
+    background-color: $black;
+    color: $white;
+    font-size: $fontsize-xxl;
+    font-family: $fontfamily-mincho;
     text-align: center;
-    line-height: 80px;
-    margin: 0px 0px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    line-height: 60px;
+    padding: 30px 30px;
 }
 
 h3 {
-    position: static;
-    left: 0px;
-    top: 0px;
-    font-family: $fontsize-example;
-    font-size: small;
+    font-size: $fontsize-l;
     line-height: 36px;
-    flex-grow: 0;
-    margin: 0px 0px;
+    background-color: $black;
+    color: $white;
+    padding: 30px 30px;
     text-align: center;
-    background-color: black;
-    color: white;
-    flex: none;
-    order: 0;
 }
