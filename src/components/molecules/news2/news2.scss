@@ -2,30 +2,22 @@
 @use "../../utilities" as *;
 
 h1 {
-    width: 125px;
-    height: 77px;
     font-family: $fontfamily-mincho;
     font-size: $fontsize-xl;
-    line-height: 57px;
-    align-items: center;
-    color: $black;
-    background-color: $gray_gainsboro;
-    padding: 10px;
+    margin-right: 10%;
 }
 
 h2 {
-    width: 120px;
-    height: 77px;
     font-size: $fontsize-l;
-    line-height: 57px;
-    align-items: center;
-    color: $black;
-    background-color: $gray_gainsboro;
-    padding: 10px;
 }
 
 .news {
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 20%;
+    height: 10%;
+    color: $black;
+    background-color: $gray_gainsboro;
+    padding: 2%;
 }
