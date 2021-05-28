@@ -1,54 +1,54 @@
 .menu1 ul li:nth-child(1) {
-    background-color: #e7eef0;
-    border: gray solid 1px;
+    background-color: $gray_gainsboro;
+    border: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 .menu1 ul li:nth-child(2) {
-    background-color: #058fb6;
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
+    background-color: $gray_nobel;
+    border-left: $gray_desertStorm solid 1px;
+    border-right: $gray_nobel solid 1px;
     text-align: center;
     padding-top: 20px;
-    font-size: xx-large;
+    font-size: $fontsize-l;
 }
 
 .menu1 ul li:nth-child(3) {
-    background-color: #058fb6;
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
-    border-bottom: gray solid 1px;
+    background-color: $gray_nobel;
+    border-left: $gray_desertStorm solid 1px;
+    border-right: $gray_desertStorm solid 1px;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding-bottom: 20px;
 }
 
 .menu1 ul li:nth-child(4) {
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
-    border-bottom: gray solid 1px;
+    border-left: $gray_desertStorm solid 1px;
+    border-right: $gray_desertStorm solid 1px;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 
 .menu1 ul li:nth-child(5) {
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
-    border-bottom: gray solid 1px;
+    border-left: $gray_desertStorm solid 1px;
+    border-right: $gray_desertStorm solid 1px;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 
 .menu1 ul li:nth-child(6) {
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
-    border-bottom: gray solid 1px;
+    border-left: solid 1px;
+    border-right: $gray_desertStorm solid 1px;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 .menu1 ul li:nth-child(7) {
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
-    border-bottom: gray solid 1px;
+    border-left: $gray_desertStorm solid 1px;
+    border-right: $gray_desertStorm solid 1px;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
