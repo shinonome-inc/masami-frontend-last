@@ -4,12 +4,35 @@
 .btn-lg {
     font-size: $fontsize-s;
     color: $white;
-    padding: 10px;
-    width: 150px;
+    padding: auto;
     background: $black;
-    border: solid 15px $gray_gainsboro;
+    border: solid 16px $gray_gainsboro;
 }
-.button:hover {
+.btn-lg:hover {
     color: $black;
     background-color: $white;
+}
+
+@media (min-width: $grid-breakpoints-sm) {
+    .btn-lg {
+        width: 160px;
+    }
+}
+
+@media (min-width: $grid-breakpoints-md) {
+    .btn-lg {
+        width: 200px;
+    }
+}
+
+@media (min-width: $grid-breakpoints-lg) {
+    .btn-lg {
+        width: 240px;
+    }
+}
+
+@media (min-width: $grid-breakpoints-xl) {
+    .btn-lg {
+        width: 320px;
+    }
 }
