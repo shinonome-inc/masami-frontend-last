@@ -2,20 +2,46 @@
 @use "../../utilities" as *;
 
 h1 {
-    background-color: $black;
-    color: $white;
-    font-size: $fontsize-xxl;
     font-family: $fontfamily-mincho;
-    text-align: center;
-    line-height: 60px;
-    padding: 30px;
+    padding-bottom: 3%;
 }
 
-h3 {
-    font-size: $fontsize-l;
-    line-height: 36px;
+.message2 {
     background-color: $black;
     color: $white;
-    padding: 30px;
     text-align: center;
+    padding: 3%;
+}
+@media (min-width: $grid-breakpoints-sm) {
+    h1 {
+        font-size: $fontsize-m;
+    }
+    h3 {
+        font-size: $fontsize-xs;
+    }
+}
+
+@media (min-width: $grid-breakpoints-md) {
+    h1 {
+        font-size: $fontsize-l;
+    }
+    h3 {
+        font-size: $fontsize-s;
+    }
+}
+@media (min-width: $grid-breakpoints-lg) {
+    h1 {
+        font-size: $fontsize-xl;
+    }
+    h3 {
+        font-size: $fontsize-m;
+    }
+}
+@media (min-width: $grid-breakpoints-xl) {
+    h1 {
+        font-size: $fontsize-xxl;
+    }
+    h3 {
+        font-size: $fontsize-m;
+    }
 }
