@@ -6,33 +6,18 @@
     color: $white;
     padding: auto;
     background: $black;
-    border: solid 16px $gray_gainsboro;
+    transition: 0.2s;
+
+    @media (min-width: $grid-breakpoints-md) {
+        width: 200px;
+    }
+
+    @media (min-width: $grid-breakpoints-xl) {
+        width: 320px;
+    }
 }
 .btn-lg:hover {
     color: $black;
-    background-color: $white;
-}
-
-@media (min-width: $grid-breakpoints-sm) {
-    .btn-lg {
-        width: 160px;
-    }
-}
-
-@media (min-width: $grid-breakpoints-md) {
-    .btn-lg {
-        width: 200px;
-    }
-}
-
-@media (min-width: $grid-breakpoints-lg) {
-    .btn-lg {
-        width: 240px;
-    }
-}
-
-@media (min-width: $grid-breakpoints-xl) {
-    .btn-lg {
-        width: 320px;
-    }
+    background-color: $orange_bistre;
+    transition: 0.2s;
 }
