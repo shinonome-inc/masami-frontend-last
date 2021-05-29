@@ -3,45 +3,38 @@
 
 h1 {
     font-family: $fontfamily-mincho;
-    padding-bottom: 3%;
+    @media (min-width: $grid-breakpoints-md) {
+        font-size: $fontsize-l;
+        line-height: 30px;
+    }
+    @media (min-width: $grid-breakpoints-lg) {
+        font-size: $fontsize-xl;
+        line-height: 54px;
+    }
 }
 
+h3 {
+    @media (min-width: $grid-breakpoints-md) {
+        font-size: $fontsize-s;
+        line-height: 28px;
+    }
+    @media (min-width: $grid-breakpoints-lg) {
+        font-size: $fontsize-s;
+        line-height: 36px;
+    }
+}
 .message2 {
     background-color: $black;
     color: $white;
     text-align: center;
-    padding: 3%;
-}
-@media (min-width: $grid-breakpoints-sm) {
-    h1 {
-        font-size: $fontsize-m;
+    display: grid;
+    place-items: center;
+    @media (min-width: $grid-breakpoints-md) {
+        height: 128px;
+        padding: 32px, 20px, 32px, 20px;
     }
-    h3 {
-        font-size: $fontsize-xs;
-    }
-}
-
-@media (min-width: $grid-breakpoints-md) {
-    h1 {
-        font-size: $fontsize-l;
-    }
-    h3 {
-        font-size: $fontsize-s;
-    }
-}
-@media (min-width: $grid-breakpoints-lg) {
-    h1 {
-        font-size: $fontsize-xl;
-    }
-    h3 {
-        font-size: $fontsize-m;
-    }
-}
-@media (min-width: $grid-breakpoints-xl) {
-    h1 {
-        font-size: $fontsize-xxl;
-    }
-    h3 {
-        font-size: $fontsize-m;
+    @media (min-width: $grid-breakpoints-lg) {
+        height: 204px;
+        padding: 52px, 20px, 52px, 20px;
     }
 }
