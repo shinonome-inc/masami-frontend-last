@@ -31,10 +31,10 @@ h3 {
     place-items: center;
     @media (min-width: $grid-breakpoints-md) {
         height: 128px;
-        padding: 32px, 20px, 32px, 20px;
+        padding: 32px, 20px;
     }
     @media (min-width: $grid-breakpoints-lg) {
         height: 204px;
-        padding: 52px, 20px, 52px, 20px;
+        padding: 52px, 20px;
     }
 }
