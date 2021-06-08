@@ -21,15 +21,12 @@ h3 {
     }
 }
 .message2 {
-    background-color: $black;
-    color: $white;
+    color: $black;
     text-align: center;
     display: grid;
     place-items: center;
-    height: 128px;
     padding: 32px, 20px;
     @media (min-width: $grid-breakpoints-md) {
-        height: 204px;
         padding: 52px, 20px;
     }
 }
