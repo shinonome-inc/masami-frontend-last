@@ -1,42 +1,23 @@
 @use "../../variables" as *;
 @use "../../utilities" as *;
-h1{
-    position: static;
-    width: 125px;
-    height: 57px;
-    left: 0px;
-    top: 0px;
-    background-color: gainsboro;
-    font-family: Noto Serif JP;
-    font-size: 40px;
-    line-height: 57px;
-    display: flex;
-    align-items: center;
-    color:$color-example;
-
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 0px;
-    padding:10px ;}
-h2{
-    position: static;
-    width: 100px;
-    height: 57px;
-    left: 0px;
-    top: 0px;
-    font-family: Noto Sans JP;
-    background-color: gainsboro;
-    font-size: 16px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    color:$color-example;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 0px;
-    padding: 10px;}
-
-.news{
-    display: flex;
-    flex-direction: row;
+h1 {
+    height: 29px;
+    font-family: $fontfamily-mincho;
+    font-size: $fontsize-l;
+    margin-right: 16px;
+    @media (min-width: $grid-breakpoints-md) {
+        height: 57px;
+        font-size: $fontsize-xxl;
     }
+}
+h2 {
+    height: 23px;
+    font-size: $fontsize-m;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: $black;
+}
