@@ -1,5 +1,9 @@
 @use "../../variables" as *;
 @use "../../utilities" as *;
 .card-body {
-    background-color: gainsboro;
+    background-color: $white_smoke;
+    align-items: center;
+    padding: 32px;
+    width: 224px;
+    height: 183px;
 }
