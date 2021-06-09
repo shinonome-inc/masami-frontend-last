@@ -1,20 +1,27 @@
+@use "../../variables" as *;
+@use "../../utilities" as *;
+
 .menu1 ul li:nth-child(1) {
-    background-color: $gray_gainsboro;
+    color: $white;
+    background-color: $orange_zorba;
     border: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
+    font-weight: bold;
 }
 .menu1 ul li:nth-child(2) {
-    background-color: $gray_nobel;
+    background-color: $white_smoke;
     border-left: $gray_desertStorm solid 1px;
     border-right: $gray_nobel solid 1px;
     text-align: center;
     padding-top: 20px;
-    font-size: $fontsize-l;
+    font-size: $fontsize-xxl;
+    color: $orange_bistre;
+    font-weight: bold;
 }
 
 .menu1 ul li:nth-child(3) {
-    background-color: $gray_nobel;
+    background-color: $white_smoke;
     border-left: $gray_desertStorm solid 1px;
     border-right: $gray_desertStorm solid 1px;
     border-bottom: $gray_desertStorm solid 1px;
@@ -39,7 +46,7 @@
 }
 
 .menu1 ul li:nth-child(6) {
-    border-left: solid 1px;
+    border-left: $gray_desertStorm solid 1px;
     border-right: $gray_desertStorm solid 1px;
     border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
@@ -59,60 +66,59 @@
 }
 
 .menu2 ul li:nth-child(1) {
-    background-color: rgb(11, 11, 165);
+    background-color: $orange_bistre;
     color: white;
-    border: rgb(11, 11, 165) 4px solid;
+    border: $orange_bistre 4px solid;
     text-align: center;
     padding: 20px;
+    font-weight: bold;
 }
 .menu2 ul li:nth-child(2) {
-    background-color: #acddeb;
-    border-left: rgb(11, 11, 165) 4px solid;
-    border-right: rgb(11, 11, 165) 4px solid;
+    background-color: $white_smoke;
+    border-left: $orange_bistre 4px solid;
+    border-right: $orange_bistre 4px solid;
     text-align: center;
     padding-top: 20px;
-    font-size: xx-large;
+    font-weight: bold;
+    font-size: $fontsize-xxl;
 }
 
 .menu2 ul li:nth-child(3) {
-    background-color: #acddeb;
-    border-left: rgb(11, 11, 165) 4px solid;
-    border-right: rgb(11, 11, 165) 4px solid;
-    border-bottom: gray solid 1px;
+    background-color: $white_smoke;
+    border-left: $orange_bistre 4px solid;
+    border-right: $orange_bistre 4px solid;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding-bottom: 20px;
 }
 
 .menu2 ul li:nth-child(4) {
-    border-left: rgb(11, 11, 165) 4px solid;
-    border-right: rgb(11, 11, 165) 4px solid;
-    border-bottom: gray solid 1px;
-
+    border-left: $orange_bistre 4px solid;
+    border-right: $orange_bistre 4px solid;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 
 .menu2 ul li:nth-child(5) {
-    border-left: rgb(11, 11, 165) 4px solid;
-    border-right: rgb(11, 11, 165) 4px solid;
-    border-bottom: gray solid 1px;
-
+    border-left: $orange_bistre 4px solid;
+    border-right: $orange_bistre 4px solid;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 
 .menu2 ul li:nth-child(6) {
-    border-left: rgb(11, 11, 165) 4px solid;
-    border-right: rgb(11, 11, 165) 4px solid;
-    border-bottom: gray solid 1px;
+    border-left: $orange_bistre 4px solid;
+    border-right: $orange_bistre 4px solid;
+    border-bottom: $gray_desertStorm solid 1px;
     text-align: center;
     padding: 20px;
 }
 .menu2 ul li:nth-child(7) {
-    border-left: rgb(11, 11, 165) 4px solid;
-    border-right: rgb(11, 11, 165) 4px solid;
-    border-bottom: rgb(11, 11, 165) 4px solid;
-
+    border-left: $orange_bistre 4px solid;
+    border-right: $orange_bistre 4px solid;
+    border-bottom: $orange_bistre 4px solid;
     text-align: center;
     padding: 20px;
 }
