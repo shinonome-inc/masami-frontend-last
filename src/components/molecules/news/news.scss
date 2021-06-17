@@ -1,17 +1,17 @@
 @use "../../variables" as *;
-@use "../../utilities" as *;
-h1 {
-    height: 29px;
+
+.news h1 {
     font-family: $fontfamily-mincho;
     font-size: $fontsize-l;
     margin-right: 16px;
+
     @media (min-width: $grid-breakpoints-md) {
         height: 57px;
         font-size: $fontsize-xxl;
     }
 }
-h2 {
-    height: 23px;
+
+.news h2 {
     font-size: $fontsize-m;
 }
 
