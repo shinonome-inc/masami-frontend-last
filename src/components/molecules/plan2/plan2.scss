@@ -9,6 +9,12 @@
     padding: 20px;
     font-weight: bold;
 }
+
+.menu1 ul li:nth-child(2):before {
+    content: "¥";
+    font-size: $fontsize-l;
+}
+
 .menu1 ul li:nth-child(2) {
     background-color: $white_smoke;
     border-left: $gray_desertStorm solid 1px;
@@ -73,6 +79,12 @@
     padding: 20px;
     font-weight: bold;
 }
+
+.menu2 ul li:nth-child(2):before {
+    content: "¥";
+    font-size: $fontsize-l;
+}
+
 .menu2 ul li:nth-child(2) {
     background-color: $white_smoke;
     border-left: $orange_bistre 4px solid;
