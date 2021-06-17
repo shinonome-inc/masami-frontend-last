@@ -1,18 +1,21 @@
 @use "../../variables" as *;
-@use "../../utilities" as *;
 
 .newsmore {
-    height: 20px;
     font-size: $fontsize-s;
     display: flex;
     align-items: center;
     color: $black;
+    transition: color 0.2s ease;
+    vertical-align: middle;
 }
 
 .newsmore:hover {
     color: $gray_nobel;
+    text-decoration: none;
 }
 
-.newsmorewrapper {
+.newsmore-wrapper {
     margin-right: 16px;
+    display: flex;
+    align-items: center;
 }
