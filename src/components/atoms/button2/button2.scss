@@ -3,7 +3,7 @@
 
 .btn-lg {
     display: flex;
-    flex-direction: row;
+
     justify-content: center;
     align-items: center;
     padding: 0px 16px;
@@ -12,9 +12,10 @@
     background: $black;
     font-size: $fontsize-s;
     color: $white;
-    transition: 0.2s;
+    transition: background-color 0.2s;
 
-    :hover {
+    &:hover {
+        color: $white;
         background-color: $orange_bistre;
     }
 
