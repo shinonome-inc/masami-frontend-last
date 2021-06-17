@@ -3,7 +3,6 @@
 
 .button {
     display: flex;
-
     justify-content: center;
     align-items: center;
     padding: 0px 16px;
@@ -12,7 +11,7 @@
     background: $black;
     font-size: $fontsize-s;
     color: $white;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s ease;
 
     &:hover {
         color: $white;
