@@ -1,6 +1,6 @@
 @use "../../variables" as *;
 
-.newsmore {
+.news-more {
     font-size: $fontsize-s;
     display: flex;
     align-items: center;
@@ -9,12 +9,12 @@
     vertical-align: middle;
 }
 
-.newsmore:hover {
+.news-more:hover {
     color: $gray_nobel;
     text-decoration: none;
 }
 
-.newsmore-wrapper {
+.news-more-wrapper {
     margin-right: 16px;
     display: flex;
     align-items: center;
