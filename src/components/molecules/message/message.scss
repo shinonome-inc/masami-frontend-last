@@ -25,9 +25,9 @@
 .message {
     color: $black;
     text-align: center;
-    padding: 32px, 20px;
+    padding: 32px　20px;
 
     @media (min-width: $grid-breakpoints-md) {
-        padding: 52px, 20px;
+        padding: 52px　20px;
     }
 }
