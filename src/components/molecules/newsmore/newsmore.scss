@@ -1,21 +1,22 @@
 @use "../../variables" as *;
 
 .news-more {
-    font-size: $fontsize-s;
     display: flex;
     align-items: center;
     color: $black;
     transition: color 0.2s ease;
-    vertical-align: middle;
-}
-
-.news-more:hover {
-    color: $gray_nobel;
     text-decoration: none;
-}
 
-.news-more-wrapper {
-    margin-right: 16px;
-    display: flex;
-    align-items: center;
+    &:hover {
+        color: $gray_nobel;
+        text-decoration: none;
+    }
+    h3 {
+        font-size: $fontsize-s;
+        margin: 0px 16px 0px 0px;
+    }
+    .fas {
+        width: 14px;
+        height: 14px;
+    }
 }
