@@ -1,22 +1,23 @@
 @use "../../variables" as *;
 
-.news h1 {
+.news {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: $black;
+}
+
+.news-title {
     font-family: $fontfamily-mincho;
     font-size: $fontsize-l;
     margin-right: 16px;
+    margin-bottom: 0px;
 
     @media (min-width: $grid-breakpoints-md) {
         font-size: $fontsize-xxl;
     }
 }
 
-.news h2 {
+.news-title-subs {
     font-size: $fontsize-m;
-}
-
-.news {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    color: $black;
 }
