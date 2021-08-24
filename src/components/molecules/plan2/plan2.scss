@@ -1,141 +1,45 @@
 @use "../../variables" as *;
-@use "../../utilities" as *;
 
-.menu1 ul li:nth-child(1) {
+.plan {
+    text-align: center;
+}
+
+.plan-title {
+    padding: 20px;
+    font-size: $fontsize-l;
     color: $white;
     background-color: $orange_zorba;
-    border: $gray_desertStorm solid 1px;
-    text-align: center;
+}
+
+dd {
     padding: 20px;
-    font-weight: bold;
+    margin-bottom: 0px;
+    border: 1px solid $gray_gainsboro;
+    border-top: none;
+    font-size: $fontsize-s;
+
+    &:nth-child(2) {
+        border-top: 1px solid $gray_gainsboro;
+        background-color: $gray_desertStorm;
+
+        .plan-price {
+            display: block;
+            font-size: $fontsize-xxl;
+            color: $orange_bistre;
+            font-weight: bold;
+            &::before {
+                content: "￥";
+                margin-right: 4px;
+                font-size: $fontsize-l;
+            }
+        }
+    }
 }
 
-.menu1 ul li:nth-child(2):before {
-    content: "¥";
-    font-size: $fontsize-l;
-}
+.menu2 {
+    border: 5px solid $orange_bistre;
 
-.menu1 ul li:nth-child(2) {
-    background-color: $white_smoke;
-    border-left: $gray_desertStorm solid 1px;
-    border-right: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding-top: 20px;
-    font-size: $fontsize-xxl;
-    color: $orange_bistre;
-    font-weight: bold;
-}
-
-.menu1 ul li:nth-child(3) {
-    background-color: $white_smoke;
-    border-left: $gray_desertStorm solid 1px;
-    border-right: $gray_desertStorm solid 1px;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.menu1 ul li:nth-child(4) {
-    border-left: $gray_desertStorm solid 1px;
-    border-right: $gray_desertStorm solid 1px;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu1 ul li:nth-child(5) {
-    border-left: $gray_desertStorm solid 1px;
-    border-right: $gray_desertStorm solid 1px;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu1 ul li:nth-child(6) {
-    border-left: $gray_desertStorm solid 1px;
-    border-right: $gray_desertStorm solid 1px;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-.menu1 ul li:nth-child(7) {
-    border-left: $gray_desertStorm solid 1px;
-    border-right: $gray_desertStorm solid 1px;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu1 ul {
-    list-style: none;
-    width: 450px;
-}
-
-.menu2 ul li:nth-child(1) {
-    background-color: $orange_bistre;
-    color: white;
-    border: $orange_bistre 4px solid;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-}
-
-.menu2 ul li:nth-child(2):before {
-    content: "¥";
-    font-size: $fontsize-l;
-}
-
-.menu2 ul li:nth-child(2) {
-    background-color: $white_smoke;
-    border-left: $orange_bistre 4px solid;
-    border-right: $orange_bistre 4px solid;
-    text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: $fontsize-xxl;
-}
-
-.menu2 ul li:nth-child(3) {
-    background-color: $white_smoke;
-    border-left: $orange_bistre 4px solid;
-    border-right: $orange_bistre 4px solid;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.menu2 ul li:nth-child(4) {
-    border-left: $orange_bistre 4px solid;
-    border-right: $orange_bistre 4px solid;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu2 ul li:nth-child(5) {
-    border-left: $orange_bistre 4px solid;
-    border-right: $orange_bistre 4px solid;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu2 ul li:nth-child(6) {
-    border-left: $orange_bistre 4px solid;
-    border-right: $orange_bistre 4px solid;
-    border-bottom: $gray_desertStorm solid 1px;
-    text-align: center;
-    padding: 20px;
-}
-.menu2 ul li:nth-child(7) {
-    border-left: $orange_bistre 4px solid;
-    border-right: $orange_bistre 4px solid;
-    border-bottom: $orange_bistre 4px solid;
-    text-align: center;
-    padding: 20px;
-}
-
-.menu2 ul {
-    list-style: none;
-    width: 450px;
+    .plan-title {
+        background-color: $orange_bistre;
+    }
 }
