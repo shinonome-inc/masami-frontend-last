@@ -1,0 +1,32 @@
+@use "../../variables" as *;
+
+.news-article-wrapper {
+    a {
+        border: 1px solid $gray_gainsboro;
+        display: block;
+        text-decoration: none;
+        &:hover {
+            p {
+                color: $orange_bistre;
+            }
+        }
+
+        article {
+            margin: 20px;
+            time {
+                font-size: $fontsize-xs;
+                color: $gray_nobel;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: $fontsize-m;
+                color: $black;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                transition: color 0.2s ease;
+            }
+        }
+    }
+}
