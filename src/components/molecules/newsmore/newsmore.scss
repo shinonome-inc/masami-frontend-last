@@ -1,12 +1,11 @@
 @use "../../variables" as *;
 
 .news-more {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     color: $black;
     transition: color 0.2s ease;
     text-decoration: none;
-    width: 114px;
 
     &:hover {
         color: $gray_nobel;
@@ -14,7 +13,7 @@
     }
     .news-more-text {
         font-size: $fontsize-s;
-        margin: 0px 16px 0px 0px;
+        margin: 0 16px 0 0;
     }
     .fas {
         width: 14px;
