@@ -11,7 +11,7 @@
     font-family: $fontfamily-mincho;
     font-size: $fontsize-l;
     margin-right: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     @media (min-width: $grid-breakpoints-md) {
         font-size: $fontsize-xxl;
