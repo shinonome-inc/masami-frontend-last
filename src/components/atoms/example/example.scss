@@ -1,0 +1,11 @@
+@use "../../variables" as *;
+@use "../../utilities" as *;
+.assignment-example-button {
+  color: $black;
+  font-size: $fontsize-s;
+}
+
+.button {
+  color: $white_smoke;
+  font-size: $fontsize-l;
+}
