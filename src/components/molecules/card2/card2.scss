@@ -1,10 +1,8 @@
 @use "../../variables" as *;
 
 .card {
-    position: relative;
     border: none;
-    border-radius: 0;
-    color: $black;
+    position: relative;
 
     &::before {
         position: absolute;
@@ -14,31 +12,27 @@
         border-left: solid 150px $white;
         border-bottom: solid 150px transparent;
         z-index: 1;
-        pointer-events: none;
     }
 
-    .card-img-wrapper {
+    .card-text-wrapper {
         overflow: hidden;
-
-        .card-title {
-            position: absolute;
-            top: 0;
-            left: 6px;
-            font-size: $fontsize-l;
-            font-weight: bold;
-            color: $orange_bistre;
-            z-index: 1;
-            pointer-events: none;
-        }
-
-        .card-img-top {
+        img {
+            width: 100%;
             transition: transform 0.5s ease;
-
-            &:hover {
-                @media screen and (min-width: $grid-breakpoints-md) {
+            @media (min-width: $grid-breakpoints-md) {
+                &:hover {
                     transform: scale(1.2);
                 }
             }
+        }
+        .card-title {
+            z-index: 2;
+            font-size: $fontsize-l;
+            font-weight: bold;
+            position: absolute;
+            top: 0px;
+            left: 6px;
+            color: $orange_bistre;
         }
     }
 
@@ -48,10 +42,11 @@
         align-items: center;
         justify-content: center;
         padding: 32px;
-        background-color: $white_smoke;
+        background: $white_smoke;
 
         .card-text {
-            margin: 0 0 30px;
+            font-size: $fontsize-s;
+            padding: 0px 0px 30px;
         }
     }
 }
