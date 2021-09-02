@@ -1,10 +1,11 @@
 @use "../../variables" as *;
 
-.plan {
+.plan-wrapper {
     text-align: center;
-    width: 220px;
-    @media (min-width: $grid-breakpoints-sm) {
-        width: 540px;
+    margin-bottom: 24px;
+
+    @media (min-width: $grid-breakpoints-md) {
+        margin-bottom: 0;
     }
     .plan-title {
         padding: 20px;
@@ -39,12 +40,11 @@
             }
         }
     }
+}
+dl div:nth-child(even) {
+    border: 5px solid $orange_bistre;
 
-    .menu2 {
-        border: 5px solid $orange_bistre;
-
-        .plan-title {
-            background-color: $orange_bistre;
-        }
+    .plan-title {
+        background-color: $orange_bistre;
     }
 }
