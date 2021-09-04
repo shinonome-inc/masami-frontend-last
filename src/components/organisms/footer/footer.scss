@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding: 32px 20px;
+
     @media (min-width: $grid-breakpoints-md) {
         padding: 52px 20px;
     }
@@ -18,7 +19,9 @@
     }
 
     i {
+        padding: 0 7px;
         color: $black;
+
         &:hover {
             color: $gray_nobel;
         }
@@ -33,6 +36,7 @@ ul {
     padding: 16px;
     background: $white_smoke;
     margin: 0;
+
     li {
         padding: 4px;
         list-style: none;
@@ -52,6 +56,7 @@ ul {
         a {
             color: $black;
             transition: 0.2 ease;
+
             &:hover {
                 color: $orange_bistre;
                 text-decoration: none;
