@@ -1,38 +1,38 @@
 @use "../../variables" as *;
 
 .top-wrapper {
-    background: url(top-image.png);
-    background-size: cover;
-    height: 360px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: url(top-image.png);
+  background-size: cover;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    .text-wrap {
-        font-size: $fontsize-l;
-        font-family: $fontfamily-mincho;
-        color: $white;
-        writing-mode: vertical-rl;
-        @media (min-width: $grid-breakpoints-lg) {
-            font-size: $fontsize-xl;
-        }
-    }
-
+  .text-wrap {
+    font-size: $fontsize-l;
+    font-family: $fontfamily-mincho;
+    color: $white;
+    writing-mode: vertical-rl;
     @media (min-width: $grid-breakpoints-lg) {
-        height: 100vh;
+      font-size: $fontsize-xl;
     }
+  }
+
+  @media (min-width: $grid-breakpoints-lg) {
+    height: 100vh;
+  }
 }
 
 .message-wrapper {
-    display: flex;
-    justify-content: center;
-    background-color: $black;
+  display: flex;
+  justify-content: center;
+  background-color: $black;
 
-    .message {
-        padding: 32px;
-        color: $white;
-        @media (min-width: $grid-breakpoints-lg) {
-            padding: 52px 36.5px 52px 74px;
-        }
+  .message {
+    padding: 32px;
+    color: $white;
+    @media (min-width: $grid-breakpoints-lg) {
+      padding: 52px 36.5px 52px 74px;
     }
+  }
 }
