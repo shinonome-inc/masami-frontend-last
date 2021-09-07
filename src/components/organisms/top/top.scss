@@ -8,11 +8,12 @@
   align-items: center;
   justify-content: center;
 
-  .text-wrap {
+  .text {
     font-size: $fontsize-l;
     font-family: $fontfamily-mincho;
     color: $white;
     writing-mode: vertical-rl;
+
     @media (min-width: $grid-breakpoints-lg) {
       font-size: $fontsize-xl;
     }
@@ -23,16 +24,14 @@
   }
 }
 
-.message-wrapper {
-  display: flex;
+.message {
+  display: block;
   justify-content: center;
   background-color: $black;
+  padding: 32px;
+  color: $white;
 
-  .message {
-    padding: 32px;
-    color: $white;
-    @media (min-width: $grid-breakpoints-lg) {
-      padding: 52px 36.5px 52px 74px;
-    }
+  @media (min-width: $grid-breakpoints-lg) {
+    padding: 52px 36.5px 52px 74px;
   }
 }
