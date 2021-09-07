@@ -44,7 +44,7 @@
   }
 }
 
-div:nth-child(even) {
+dl div:nth-child(even) {
   border: 5px solid $orange_bistre;
   dt {
     background-color: $orange_bistre;
