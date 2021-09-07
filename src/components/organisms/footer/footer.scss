@@ -70,11 +70,7 @@ ul {
   flex-direction: column;
   align-items: center;
   background-color: $black;
-
-  .bottom-text {
-    margin: 0;
-    padding: 16px;
-    font-size: $fontsize-xs;
-    color: $white;
-  }
+  padding: 16px;
+  font-size: $fontsize-xs;
+  color: $white;
 }
