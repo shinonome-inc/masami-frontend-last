@@ -1,0 +1,19 @@
+@use "../../variables" as *;
+
+.news-more {
+  display: inline-flex;
+  align-items: center;
+  color: $black;
+  transition: color 0.2s ease;
+  text-decoration: none;
+
+  &:hover {
+    color: $gray_nobel;
+    text-decoration: none;
+  }
+
+  .news-more-text {
+    font-size: $fontsize-s;
+    margin: 0 16px 0 0;
+  }
+}
