@@ -14,7 +14,7 @@
     z-index: 1;
   }
 
-  .card-text-wrapper {
+  .card-title-wrapper {
     overflow: hidden;
 
     img {
@@ -39,7 +39,7 @@
     }
   }
 
-  .card-body {
+  .card-text-wrapper {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -50,6 +50,8 @@
     .card-text {
       font-size: $fontsize-s;
       padding: 0px 0px 30px;
+      margin: 0;
+      line-height: 33px;
     }
   }
 }
