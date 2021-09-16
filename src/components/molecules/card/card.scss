@@ -1,0 +1,57 @@
+@use "../../variables" as *;
+
+.card {
+  position: relative;
+  border: none;
+  border-radius: 0;
+  color: $black;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    border-left: solid 150px $white;
+    border-bottom: solid 150px transparent;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .card-img-wrapper {
+    overflow: hidden;
+
+    .card-title {
+      position: absolute;
+      top: 0;
+      left: 6px;
+      font-size: $fontsize-l;
+      font-weight: bold;
+      color: $orange_bistre;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .card-img-top {
+      transition: transform 0.5s ease;
+
+      &:hover {
+        @media screen and (min-width: $grid-breakpoints-md) {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+  .card-body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background-color: $white_smoke;
+
+    .card-text {
+      margin: 0 0 30px;
+    }
+  }
+}
