@@ -1,0 +1,47 @@
+@use "../../variables" as *;
+
+#top {
+  margin-bottom: 40px;
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    margin-bottom: 20px;
+  }
+
+  .top-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 360px;
+    background: url(image10.jpg) 50% 80% / cover;
+
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      height: 100vh;
+    }
+
+    h2 {
+      font-family: $fontfamily-mincho;
+      font-size: $fontsize-l;
+      writing-mode: vertical-rl;
+
+      @media screen and (min-width: $grid-breakpoints-lg) {
+        font-size: $fontsize-xl;
+      }
+    }
+  }
+
+  .top-message-container {
+    display: flex;
+    justify-content: center;
+    background-color: $black;
+
+    .message-wrapper {
+      max-width: 720px;
+      color: $white;
+
+      @media screen and (min-width: $grid-breakpoints-lg) {
+        padding: 52px 35px 74px;
+        max-width: none;
+      }
+    }
+  }
+}

@@ -1,52 +1,69 @@
 @use "../../variables" as *;
 
-.plan-wrapper {
-  text-align: center;
+.plan-table {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 24px;
 
-  dt {
-    padding: 20px;
-    font-size: $fontsize-l;
-    color: $white;
+  > * {
+    margin: 0;
+    width: auto;
+    text-align: center;
+    color: $black;
+  }
+
+  .plan-title {
+    padding: 20px 8px;
     background-color: $orange_zorba;
+    font-size: $fontsize-l;
     line-height: 29px;
+    color: $white;
   }
 
   dd {
-    padding: 20px;
-    margin-bottom: 0;
+    padding: 20px 10px;
     border: 1px solid $gray_gainsboro;
     border-top: none;
     font-size: $fontsize-s;
     line-height: 20px;
 
     &:nth-child(2) {
+      padding: 24px 0;
       border-top: 1px solid $gray_gainsboro;
       background-color: $gray_desertStorm;
 
-      .plan-price {
+      .plan-price-text {
         display: block;
+        margin-bottom: 16px;
+        height: 58px;
         font-size: $fontsize-xxl;
+        line-height: 58px;
+        font-weight: 700;
         color: $orange_bistre;
-        font-weight: bold;
-        margin: 24px 0 16px 0;
 
         &::before {
-          content: "￥";
+          content: "¥";
           margin-right: 4px;
           font-size: $fontsize-l;
         }
       }
     }
   }
-  @media (min-width: $grid-breakpoints-md) {
+
+  @media screen and (min-width: $grid-breakpoints-md) {
     margin-bottom: 0;
   }
 }
 
-dl div:nth-child(even) {
+.plan-table-emphasized {
   border: 5px solid $orange_bistre;
-  dt {
+
+  .plan-title {
+    padding-top: 15px;
     background-color: $orange_bistre;
+  }
+
+  dd:last-child {
+    padding-bottom: 15px;
   }
 }

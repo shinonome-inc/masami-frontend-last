@@ -1,0 +1,27 @@
+@use "../../variables" as *;
+
+#plans {
+  .message-wrapper {
+    padding-top: 0;
+
+    .title-text {
+      color: $orange_bistre;
+    }
+  }
+
+  .plan-table-container {
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-bottom: 100px;
+    }
+  }
+}
