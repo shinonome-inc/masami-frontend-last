@@ -1,0 +1,37 @@
+@use "../../variables" as *;
+
+.top-wrapper {
+  background: url(top-image.png);
+  background-size: cover;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text {
+    font-size: $fontsize-l;
+    font-family: $fontfamily-mincho;
+    color: $white;
+    writing-mode: vertical-rl;
+
+    @media (min-width: $grid-breakpoints-lg) {
+      font-size: $fontsize-xl;
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-lg) {
+    height: 100vh;
+  }
+}
+
+.message {
+  display: block;
+  justify-content: center;
+  background-color: $black;
+  padding: 32px;
+  color: $white;
+
+  @media (min-width: $grid-breakpoints-lg) {
+    padding: 52px 36.5px 52px 74px;
+  }
+}
